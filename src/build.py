@@ -411,7 +411,10 @@ def home():
           </div>
         </div>
         <div class="hero__media reveal">
-          {ph_img("CLINIC INTERIOR OR DR. LI WITH A PATIENT")}
+          <img class="hero__img" src="/assets/img/clinic-reception.jpg" width="399" height="501" fetchpriority="high"
+               alt="Bright reception area with a curved white front desk, warm ring pendant lights and an illuminated tooth logo on the wall">
+          <!-- Hero photo is only 399x501px; replace with a 1000px+ wide version for sharp display. -->
+
           <div class="float-card">
             <div class="float-card__item"><span class="float-card__icon">{icon("shield")}</span>CDCP Provider</div>
             <div class="float-card__item"><span class="float-card__icon">{icon("phone")}</span>Free phone consult</div>
